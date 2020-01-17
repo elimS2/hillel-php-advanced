@@ -2,8 +2,8 @@
 
 ![nginx 1.14.0](https://img.shields.io/badge/Nginx-1.14-brightgreen.svg?&amp;logo=nginx&amp;logoColor=white&amp;style=for-the-badge)
 ![php 7.3](https://img.shields.io/badge/PHP-7.3-brightgreen.svg?&amp;logo=php&amp;logoColor=white&amp;style=for-the-badge)
-![Unix Socket](https://img.shields.io/badge/Nginx%20and%20PHP--FPM%20on%20Unix%20Socket-enabled-green.svg)
-![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Unix Socket](https://img.shields.io/badge/Nginx%20and%20PHP--FPM%20on%20Unix%20Socket-enabled-green.svg?&amp;style=for-the-badge)
+![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?&amp;style=for-the-badge)
 
 ## Usage
 
