@@ -1,7 +1,8 @@
 # Docker PHP-FPM 7.3 & Nginx 1.14 on Ubuntu
 
-![nginx 1.14.0](https://img.shields.io/badge/nginx-1.16-brightgreen.svg)
+![nginx 1.14.0](https://img.shields.io/badge/nginx-1.14-brightgreen.svg)
 ![php 7.3](https://img.shields.io/badge/php-7.3-brightgreen.svg)
+![Unix Socket](https://img.shields.io/badge/Nginx%20and%20PHP--FPM%20on%20Unix%20Socket-enabled-green.svg)
 ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Usage
