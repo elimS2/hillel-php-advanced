@@ -48,13 +48,13 @@ $worker2->setName('Vasya');
 $worker2->setAge(26);
 $worker2->setSalary(2000);
 
-echo "Summ of salary: ". ($worker1->getSalary() + $worker2->getSalary()) . "." . newline();
-echo "Summ of age: ". ($worker1->getAge() + $worker2->getAge()) . "." . newline();
+echo "The sum of the salaries of {$worker1->getName()} and {$worker2->getName()}: ". ($worker1->getSalary() + $worker2->getSalary()) . "." . newline();
+echo "The sum of the ages of {$worker1->getName()} and {$worker2->getName()}: " . ($worker1->getAge() + $worker2->getAge()) . "." . newline();
 echo_name_age($worker1);
 echo_name_age($worker2);
 
 function echo_name_age($worker) {
-    echo $worker->getName() . " is " . $worker->getAge() . " years old." . newline();
+    echo "{$worker->getName()} is {$worker->getAge()} years old." . newline();
 }
 
 function newline() {
