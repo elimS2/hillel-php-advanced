@@ -1,6 +1,5 @@
 <?php
 
-require_once('Soldier.php');
 require_once('Team.php');
 
 $team1 = new Team(6);
