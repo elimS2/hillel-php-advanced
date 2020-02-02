@@ -26,3 +26,4 @@ $team2->showLifePoints();
 function newline() {
     return(PHP_SAPI === 'cli') ? PHP_EOL : "<br />";
 }
+
