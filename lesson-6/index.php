@@ -69,25 +69,32 @@ function arrayToXml( $data, $keyName, &$Xmldata ) {
 
 function generateHtml($printData) {
     $html = "
-                    <!DOCTYPE html>
-                    <html>
-                        <head>
-                            <style>
-                                table {
-                                    border-collapse: collapse;
-                                    width: 100%;
-                                }
-                                th, td {
-                                  padding: 8px;
-                                  text-align: left;
-                                  border-bottom: 1px solid #ddd;
-                                }                        
-                                tr:hover {background-color:#f5f5f5;}
-                            </style>
-                        </head>
-                        <body>
-                            <table><thead><tr><td>Name</td><td>Salary</td><td>Employees Count</td></tr></thead>
-        ";
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <style>
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    th, td {
+                        padding: 8px;
+                        text-align: left;
+                        border-bottom: 1px solid #ddd;
+                    }                        
+                    tr:hover {background-color:#f5f5f5;}
+                </style>
+            </head>
+            <body>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Salary</td>
+                            <td>Employees Count</td>
+                        </tr>
+                    </thead>
+    ";
     foreach ($printData as $row) {
         $html .= "<tr>";
         foreach ($row as $cell) {
