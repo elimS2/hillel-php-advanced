@@ -99,7 +99,3 @@ function generateHtml($printData) {
     return $html;
 }
 
-
-
-
-
