@@ -3,16 +3,14 @@
 class Manager extends Worker implements ManagerInterface
 {
     protected $position = 'Manager';
-    protected $employees = [];
-    protected $employees2 = [];
+    protected $employees = [];    
 
     public function getCountEmployees(): int
     {
         return count($this->employees);
     }
 
-    public function addEmployee(EmployeeInterface $employee): void
-        #public function addEmployee(Worker $employee): void
+    public function addEmployee(EmployeeInterface $employee): void        
     {
         $this->employees[] = $employee;
     }
